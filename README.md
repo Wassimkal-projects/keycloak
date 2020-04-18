@@ -23,8 +23,8 @@ The purpose of this guide is to show you how to connect Keycloak to postgreSQL d
 ### Steps
 1. Package the JDBC Driver  
     Find and download the JDBC driver JAR for postgreSQL. Before you can use this driver, you must package it up into a module and install it into the server:  
-    * Within the following directory \modules\system\layers\keycloak\org\ , create postgresql\main and copy your database driver JAR into this directory and create an empty module.xml file within it too.
-    ![Image](https://github.com/Wassimkal-projects/keycloak/blob/master/src/main/resources/postgresql-driver.JPG) 
+    * Within the following directory \modules\system\layers\keycloak\org\ , create postgresql\main and copy your database driver JAR into this directory and create an empty module.xml file within it too.  
+    ![Image](https://github.com/Wassimkal-projects/keycloak/blob/master/postgresql-driver.JPG) 
 
 2. After you have done this, open up the module.xml file and create the following XML:
     ```xml
